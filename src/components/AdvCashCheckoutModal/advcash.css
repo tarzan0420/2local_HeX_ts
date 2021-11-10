@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.App {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 10px;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
+.heading{
+  font-family: 'Pacifico', cursive;
+  font-size: 25px;
+}
+.container{
+    margin-top: 30px;
+  justify-content: space-around;
+  align-items: center;
+}
+input, select{
+  padding-left: 5px;
+  font-size: 20px;
+  height: 36px;
+  width: 120px;
+}
+.switch{
+  padding: 5px;
+  margin-top: 25px;
+  background-color: rgb(226, 252, 184);
+  border-radius: 50%;
+  cursor: pointer;
+}
+.result{
+  box-sizing: border-box;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+button{
+  width: 100px;
+  height: 30px;
+  font-weight: bold;
+  font-size: 20px;
+  border: 2px solid forestgreen;
+  background-color: rgb(226, 252, 184);
+  cursor: pointer;
+}
+p,h3, button, .switch{
+  color: forestgreen;
+}
+p{
+  font-size: 30px;
+}
